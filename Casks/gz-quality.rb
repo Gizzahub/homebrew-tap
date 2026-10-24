@@ -6,25 +6,25 @@ cask "gz-quality" do
     end
   end
 
-  version "0.1.3"
+  version "0.2.0"
 
   on_macos do
     on_arm do
-      sha256 "3551fc23fc8592415557d5022c79e5244db9bbe818fcb1aef93d3b2012088ece"
+      sha256 "3e2af08336741e5ca1cfb0ab981fc0185bf40b4a74f5432a5f33177c2a3d30fe"
       url "https://github.com/Gizzahub/gzh-cli-quality/releases/download/v#{version}/gzh-cli-quality_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "be5a922c6f014ad5b517df6541598ed0a6983f6286666c121d7f200c7005de75"
+      sha256 "a46b04f31f2f38eceb4bb9a9553cf61c7e1160e339c46d72779557834a60a504"
       url "https://github.com/Gizzahub/gzh-cli-quality/releases/download/v#{version}/gzh-cli-quality_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "ec07ec9c545cf1b1870271fc60fa99bda0ade9402710d3adcb458f4779173ec7"
+      sha256 "0026369b812ad50311eabdfd3c1d2b8fc481e9146818d98edf95ad5afc061e00"
       url "https://github.com/Gizzahub/gzh-cli-quality/releases/download/v#{version}/gzh-cli-quality_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "b596266ac090ce7d918d557a46f2abb53e57df3275d80cf6416e2d979e214924"
+      sha256 "6d77111556e8582d250a4c78042492addbe82b254939d832098333224b5b8aee"
       url "https://github.com/Gizzahub/gzh-cli-quality/releases/download/v#{version}/gzh-cli-quality_#{version}_linux_amd64.tar.gz"
     end
   end
