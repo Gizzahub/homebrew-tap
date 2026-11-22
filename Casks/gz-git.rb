@@ -6,25 +6,25 @@ cask "gz-git" do
     end
   end
 
-  version "0.15.0"
+  version "0.16.0"
 
   on_macos do
     on_arm do
-      sha256 "7e3436e139b6e78e89ac227394165067f597f0e6fe5ef9b56a4fa946b5b27657"
+      sha256 "c67ab758ad50a85f1855b62c3ae4e1b3db80bc684e95759e52444c2026e08f68"
       url "https://github.com/gizzahub/gzh-cli-gitforge/releases/download/v#{version}/gz-git_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "fede9576e88378a993831c7bd640d9ed4aecb4f8749a6faed4192927bcce831f"
+      sha256 "4ccb99cffa369ca470bfc26c2608d681fc71079a5cc2bc079f75f4a2783ba15c"
       url "https://github.com/gizzahub/gzh-cli-gitforge/releases/download/v#{version}/gz-git_#{version}_darwin_x86_64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "b11f2105ff9de66ac19cb857fa9f0d678f29e75fd49421d6b85043b9674c2d91"
+      sha256 "765cc3bf3c483db102f8bb5b39bcadd7fce2547760b51a24a054ef7a9ec4df3d"
       url "https://github.com/gizzahub/gzh-cli-gitforge/releases/download/v#{version}/gz-git_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "097b0e05e2a3ce823e0ce322655ab0f32e0c679892f78c5468f148b6341a731b"
+      sha256 "7c3e23383bf3d1638fe776625e8458798127408e5052c34474ee047c172b4886"
       url "https://github.com/gizzahub/gzh-cli-gitforge/releases/download/v#{version}/gz-git_#{version}_linux_x86_64.tar.gz"
     end
   end
